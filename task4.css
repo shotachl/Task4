@@ -1,0 +1,31 @@
+input{
+    font-size: 20px;
+}
+
+button{
+    background-color: cyan;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+#Results{
+    display: flex;
+    align-items: center;
+}
+
+#Results h1{
+    margin-right: 10px;
+}
+
+#display{
+    border: none;
+}
